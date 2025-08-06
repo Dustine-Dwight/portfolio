@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c75b9a3cb0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ddr.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Bookkeeper/Collections Specialist</p>
+                <h1>Hi, I'm <span>Dwight</span> <br>from the Philippines</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dstrrr.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a seasoned working professional with over 9 years of collective experience across diverse industries, bringing a broad perspective and adaptability to any role I take on. For the past 3+ years, I have been focused in the BPO sector as a Subject Matter Expert (SME), specializing in billing, collections, and invoicing processes. My background reflects a strong commitment to accuracy, efficiency, and client satisfaction, with a proven track record of supporting operational excellence and driving results in fast-paced environments.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Bookkeeping</span><br>AR/AP, Invoicing, Reconciling, Financial Reporting</li>
+                            <li><span>Collections</span><br>Monitoring accounts, maintaining accurate records, processing payments and refunds, and preparing collection reports.</li>
+                            <li><span>Customer Support</span><br>Handling escalated customer issues/concerns, answers phone, chat and email transactions</li>
+                            <li><span>Communication Skill</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - 2025</span><br>SME-Collections at Foundever Asia Inc.</li>
+                            <li><span>2022 - 2023</span><br>Customer Support Advisor at Foundever Asia Inc.</li>
+                            <li><span>2016 - 2017</span><br>Product Specialist at ELRO Retail Corp.</li>
+                            <li><span>2013 - 2016</span><br>Supervisor at InfiniTEA</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Bookkeeping NCIII at TESDA</li>
+                            <li><span>2018 - 2022</span><br>Financial Management at The National Teachers College Manila</li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services---------- -->
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Bookkeeping</h2>
+                    <p>Accurate tracking of AR/AP, daily income and expenses to keep your books up-to-date.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                    <i class="fa-solid fa-receipt"></i>
+                    <h2>Collections</h2>
+                    <p>I help businesses maintain healthy cash flow by professionally and persistently following up on outstanding payments. I offer timely, organized, and respectful collections services tailored to your business needs.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h2>Customer Support</h2>
+                    <p>I offer professional and responsive customer support to help you deliver a smooth and satisfying experience to your clients. My services are designed to ensure prompt resolution, proactive communication, and a strong brand image.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- -----------Portfolio---------- -->
+     <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Xero.jpg">
+                <div class="layer">
+                    <h3>Xero Pro Advisor</h3>
+                    <a href="https://learning.central.xero.com/student/award/pj7wk4tmWmEohrkVFRsvG11J"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/QBO-ProAdvisor.jpg">
+                <div class="layer">
+                     <h3>QuickBooks Online Certification</h3>
+                     <a href="https://www.credly.com/badges/14023d7f-72a5-483d-9c0d-5f2e14f6b3b5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/QBO-Bookkeeping.jpg">
+                <div class="layer">
+                    <h3>Intuit Bookkeeping Certification</h3>
+                    <a href="https://www.credly.com/badges/0b2f06ed-05ee-4f4c-b11c-2cdbdccfc8fd"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+</div>
+    <!-- -----------tools---------- -->
+    <div id="tools">
+        <div class="container">
+        <h1 class="sub-title">Tools I Used</h1>
+        <div class="tools-list">
+            <div class="logo-row">
+                <div class="logo"><img src="images/excel.png" alt="Excel"></div>
+                <div class="logo"><img src="images/sheets.png" alt="Sheets"></div>
+                <div class="logo"><img src="images/Intuit_QuickBooks_logo.svg.png" alt="QuickBooks"></div>
+                <div class="logo"><img src="images/NetSuite-Logo.png" alt="NetSuite"></div>
+                <div class="logo"><img src="images/xero.png" alt="Xero"></div>
+                <div class="logo"><img src="images/zd.png" alt="Zendesk"></div>
+                <div class="logo"><img src="images/talkdesk-logo-1.png" alt="TalkDesk"></div>
+                <div class="logo"><img src="images/slack.png" alt="Slack"></div>
+                <div class="logo"><img src="images/IEX.png" alt="IEX"></div>
+                <div class="logo"><img src="images/vsc.png" alt="Visual Studio Code"></div>
+                <div class="logo"><img src="images/github.png" alt="Github"></div>
+                <div class="logo"><img src="images/Zoom-Logo.png" alt="Zoom"></div>
+                <div class="logo"><img src="images/teams.png" alt="MS Teams"></div>
+                <div class="logo"><img src="images/Gsuite-logo.png" alt="GSuite"></div>
+                <div class="logo"><img src="images/Microsoft-M365_Logo.png" alt="MS 365"></div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Contact---------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> dustinedwightr@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i> +63-976-181-9255</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/3dustr/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/thirtineight/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dustine-dwight-reyes-a11a4b377/"><i class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="mailto:dustinedwightr@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="images/CV_REYESDD.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Dstr. 2025 All rights reserved</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyanw5dMnCxGXxoXUmLSnpH6lnm-8nrj-JGN7Ea6Gibf4eQJs828ERg-4NC9irVG8_1/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
